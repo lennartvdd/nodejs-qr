@@ -3,7 +3,7 @@
 const express = require('express');
 const QRCode = require('qrcode');
 const app = express();
-const PORT = 3000;
+const PORT = 9999;
 
 app.get('/', async (req, res) => {
   try {
